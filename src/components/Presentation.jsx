@@ -20,7 +20,7 @@ const Presentation = () => {
   return (
     <div className='bg-gray-900 bg-opacity-5'>
       <Header />
-      <div className='flex items-center justify-center border  mt-8'>
+      <div className='flex items-center justify-center border  mt-8 '>
            {/**Card */}
           <div className=' flex w-3/4   ' >
             {/**Titre et Paragraphe */}
