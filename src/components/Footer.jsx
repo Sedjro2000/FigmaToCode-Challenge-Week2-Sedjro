@@ -10,7 +10,7 @@ import GotoTop from '../assets/icon (5).png'
 const Footer = () => {
   return (
     <div>
-        <div className='flex flex-col md:flex-row lg:flex-col xl:flex-row md:justify-center lg:justify-center md:space-x-6 lg:space-x-6  pt-16 pb-16 '>
+        <div className='flex flex-col md:flex-row lg:flex-row xl:flex-row md:justify-center lg:justify-center md:space-x-6 lg:space-x-6  pt-16 pb-16 '>
             <div className=' flex flex-col  max-w-md   p-8 space-y-6 '>
                 <Logo />
                 <p className='font-OpenSans font-normal text-base tracking-normal capitalize leading-normal'>Lorem ipsum dolor sit amet, consectetur adipiscing
