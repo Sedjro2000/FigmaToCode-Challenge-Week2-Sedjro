@@ -20,11 +20,11 @@ const Presentation = () => {
   return (
     <div className='bg-gray-900 bg-opacity-5'>
       <Header />
-      <div className='flex items-center justify-center border '>
+      <div className='flex items-center justify-center border  mt-8'>
            {/**Card */}
-          <div className=' flex w-3/4  ' >
+          <div className=' flex w-3/4   ' >
             {/**Titre et Paragraphe */}
-            <div className='mt-24 space-y-8'>
+            <div className='mt-24 space-y-8 mr-4'>
               <h2 class="text-black  text-5xl leading-14 capitalize">Collections</h2>
                 <p class="text-black  text-xl font-normal leading-7 capitalize">
                   you can explore ans shop many differnt collection from various barands here.
@@ -35,8 +35,12 @@ const Presentation = () => {
                 </button>
             </div>
               {/**Image */}
-              <div class="flex-shrink-0 ">
-              <img src={Image} alt="Image" style={imageStyle} />
+              <div class="flex-shrink-0 border  ">
+                <div className='relative  '>
+                    <img src={Image} alt="Image" style={imageStyle} className='absolute -top-3 -left-3 z-10' />
+                    <div className='bg-gray-300 bg-opacity-75 p-8 rounded z-20 w-[424px] h-[542px]' style={rectangleStyle}></div>
+                </div>
+              
               </div>
              
           </div>
